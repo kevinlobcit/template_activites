@@ -39,7 +39,7 @@ bool gpa::biggerThan(pair<string, int> i, pair<string, int> j)
     return(i.second<j.second);
 }
 
-void gpa::inputNameGPA(int storage)
+void gpa::inputNameGPA()
 {
     cout << "Enter your name";
     string name;

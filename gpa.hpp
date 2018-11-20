@@ -19,7 +19,7 @@ private:
 public:
     gpa();
     void menu();
-    void inputNameGPA(int storage);
+    void inputNameGPA();
     void insert(vector<string, int> peopleGpa, string name, int gpaMark);
     static bool biggerThan(pair<string,int> i, pair<string,int> j);
     void printList();
